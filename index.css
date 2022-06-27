@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Ubuntu:ital@1&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-brand{
+    background-color: black;
+}
+* .navbar-brand:hover{
+    color: tomato;
+
+}
+* a{
+    color:white;
+}
+.love:hover{
+color: tomato;
+}
+.Restro{
+    color:green;
+    font-size: 24px;
+    padding: 20px;
+    font-weight: 300;
+}
+body{
+    font-family: sans-serif;
+}
+.content{
+    text-align: center;
+}
+.banner{
+    background-image: url("https://images.unsplash.com/photo-1561758033-d89a9ad46330?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fGJ1cmdlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    background-attachment: cover;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+h2{
+    color: white;
+    font-size: 20px;
+}
+p{
+    color: white;
+    text-align: center;
+   font-family:cursive;
+}
+.footer{
+    background:#333;
+  }
+  
+  .footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+  }
+  
+  .footer .box-container .box{
+    padding:1rem 0;
+    flex:1 1 25rem;
+  }
+  
+  .footer .box-container .box h3{
+    font-size: 2.5rem;
+    padding:.7rem 0;
+    color:#fff;
+  }
+  
+  .footer .box-container .box p{
+    font-size: 1.5rem;
+    padding:.7rem 0;
+    color:#eee;
+  }
+  
+  .footer .box-container .box a{
+    display: block;
+    font-size: 1.5rem;
+    padding:.7rem 0;
+    color:#eee;
+  }
+  
+  .footer .box-container .box a:hover{
+    color:var(--orange);
+    text-decoration: underline;
+  }
+  
+  .footer .credit{
+    text-align: center;
+    padding:2rem 1rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: normal;
+    color:#fff;
+    border-top: .1rem solid rgba(255,255,255,.2);
+  }
+
